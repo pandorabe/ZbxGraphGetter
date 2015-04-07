@@ -1,12 +1,12 @@
 # ZbxGraphGetter
 
-ZbxGrphGetter is chart picture collection ruby module for Zabbix.
+ZbxGrphGetter is chart picture collection ruby module for Zabbix.  
 (Made for only to get chart picture via Zabbix API.)
 
 IF you want to find and use the other functions, then I strongly reccomend to use 'zabbixapi', 'zbxapi', and so on.
 
 ##Specification and Excuse
- - This tool supports only zabbix 2.0.x, 2.2.x, snd 2.4.x.
+ - This tool supports only zabbix 2.0.x, 2.2.x, and 2.4.x.
  - This tool tested on ruby 2.0.0p481.
  - All Chart files are downloaded by current directory.
  - This tool use hostlist-file. The hostlist-file generated automatically. (All of the hostname that registered on Zabbix are written in the hostlist-file.) 
