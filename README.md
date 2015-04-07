@@ -50,18 +50,18 @@ IF you want to find and use the other functions, then I strongly reccomend to us
  - If you want to get selected graphs manually.
  
  ####1.Modifying *'hoge_hostlist.txt'*
-  `hoge_01`
-  `hoge_02`
-  `Zabbix Server`
+  `hoge_01`  
+  `hoge_02`  
+  `Zabbix Server`  
   
   > Remain hostnames that you want to collect.
  
  ####2.Modifying *'client.rb'*
-   `### Your Code Section`
-   `fuga = ZbxGraphGetter.new`
-   `fuga.http_request(fuga.auth_json)` 
-   `fuga.http_request(fuga.host_json) `
-   `fuga.png_getter`
+   `### Your Code Section`  
+   `fuga = ZbxGraphGetter.new`  
+   `fuga.http_request(fuga.auth_json)`   
+   `fuga.http_request(fuga.host_json) `  
+   `fuga.png_getter`  
  
  ####3.Run
  `$ ruby client.rb`
